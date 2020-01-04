@@ -3,9 +3,9 @@ Brandico font
 
 [Demo page](http://fontello.github.io/brandico.font/demo.html)
 
-Crowdsourced collection of popular logos, mostly for use in fontello. 
+Crowdsourced collection of popular logos, mostly for use in fontello.
 We have no goal to collect all possible logos here. Only popular ones, used at
-websites, and missed in other collections:
+websites, and missing in other collections:
 
 - icons for links to pages in social networks
 - messengers icons
@@ -47,9 +47,9 @@ do any other kinds of promotion.
    _Attention! Don't commit font files!_ That can create unnesessary
    merge conflicts.
 
-If this is difficult for you, just create new [ticket](https://github.com/fontello/brandico.font/issues)
-and attach there your icon, as described in step 2, and icon description. We will
-do the rest
+If this is difficult for you, just create a new [ticket](https://github.com/fontello/brandico.font/issues)
+and attach your icon there, as described in step 2, and add an icon description. We will
+do the rest.
 
 
 License

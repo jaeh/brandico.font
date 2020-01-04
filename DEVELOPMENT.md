@@ -55,10 +55,10 @@ You can rebuild css/html only with `make html`
 
 ### SVG image requirements
 
-Any image will be proportionnaly scaled, to fit height in ascent-descent
+Any image will be proportionaly scaled, to fit height in ascent-descent
 It's convenient to make height = 1000px. Default font baseline will be 20% from
 the bottom.
 
-In most cases it's ok to visually allign icons to middle line, not to baseline.
-If you are not shure, how to start - make image with 10% top/bottom padding.
+In most cases it's ok to visually align icons to middle line, not to baseline.
+If you are not sure how to start - make image with 10% top/bottom padding.
 Then generate demo page and tune scale/offset.
