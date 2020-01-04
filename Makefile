@@ -28,7 +28,7 @@ dist: font html
 font:
 	@if test ! `which ttfautohint` ; then \
 		echo "ttfautohint not found. run:" >&2 ; \
-		echo "  make support" >&2 ; \
+		echo "  make dependencies" >&2 ; \
 		exit 128 ; \
 		fi
 
@@ -47,8 +47,7 @@ font:
 
 
 html:
-	@${BIN}/jade -O '$(shell node_modules/.bin/js-yaml -j config.yml)' ./src/demo/demo.jade -o ./font
-
+	@./bin/pug.js
 
 gh-pages:
 	@if test -z ${REMOTE_REPO} ; then \
@@ -63,7 +62,7 @@ gh-pages:
 		git commit -q -m 'refreshed gh-pages'
 	cd ${TMP_PATH} && \
 		git remote add remote ${REMOTE_REPO} && \
-		git push --force remote +master:gh-pages 
+		git push --force remote +master:gh-pages
 	rm -rf ${TMP_PATH}
 
 
