@@ -1,4 +1,6 @@
 {
+  "name": "brandico.font",
+  "version": "0.0.1",
   "dependencies": {
     "js-yaml": "3.13.1",
     "pug": "2.0.4",
